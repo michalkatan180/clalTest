@@ -1,0 +1,8 @@
+<h1>tasks</h1>
+<input type="number" [(ngModel)]="num" />
+<div *ngFor="let x of arr; let i=index">
+   
+    <p *ngIf="checkIndex(i)"> index:{{i}}---{{x.TaskName}}</p>
+
+    <p [class.fRed]="!isGood(x.DueDate)">{{x.DueDate}}</p>
+</div>

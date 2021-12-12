@@ -1,0 +1,48 @@
+/*{
+    [
+        {
+            "EmployeeName": "A",
+            "EmployeePicture": "piture path here"
+        },
+        {
+            "EmployeeName": "B",
+            "EmployeePicture": "piture path here"
+        },
+        {
+            "EmployeeName": "C",
+            "EmployeePicture": "piture path here"
+        },
+        {
+            "EmployeeName": "D",
+            "EmployeePicture": "piture path here"
+        }
+    ],
+    [
+        {
+            "DepartmentID": "1",
+            "DepartmentName": "aaa",
+            "ParentID": "0"
+        },
+        {
+            "DepartmentID": "2",
+            "DepartmentName": "bbb",
+            "ParentID": "20"
+        },
+        {
+            "DepartmentID": "3",
+            "DepartmentName": "ccc",
+            "ParentID": "0"
+        },
+        {
+            "DepartmentID": "4",
+            "DepartmentName": "ddd",
+            "ParentID": "40"
+        }
+    ]
+    // [
+    //     {"TaskNumber":1,"TaskName":"t1","StatusID":1," EmployeeName ":"Employee Name"," DepartmentID ":1,"DueDate":new Date(2020,1,1)},
+    //     {"TaskNumber":2,"TaskName":"t2","StatusID":1," EmployeeName ":"Employee Name"," DepartmentID ":1,"DueDate":new Date(2018,1,1)},
+    //     {"TaskNumber":3,"TaskName":"t3","StatusID":1," EmployeeName ":"Employee Name"," DepartmentID ":3,"DueDate":new Date(2028,1,1)},
+    //     {"TaskNumber":4,"TaskName":"t4","StatusID":0," EmployeeName ":"Employee Name"," DepartmentID ":4,"DueDate":new Date(2010,1,1)},
+    // ]
+}*/

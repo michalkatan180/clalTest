@@ -1,0 +1,4 @@
+<h1>departments</h1>
+<div *ngFor="let x of arr">
+    <p *ngIf="check(x.ParentID)"> {{x.DepartmentName}}---ParentID:{{x.ParentID}}</p>
+</div>

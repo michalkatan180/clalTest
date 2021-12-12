@@ -1,0 +1,12 @@
+<h1>employees</h1>
+<div class="col">
+    <div ngbDropdown class="d-inline-block">
+        <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button *ngFor="let x of arr" ngbDropdownItem>{{x.EmployeeName}}
+                <img src="{{x.EmployeePicture}}"  class="userImg"  />
+            </button>
+
+        </div>
+    </div>
+</div>
